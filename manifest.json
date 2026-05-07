@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Sistema TPA para Bedrock 1.26.30",
+        "name": "TPA Pro 1.26.30",
+        "uuid": "f3a123e4-b901-4c32-a1b2-123456789abc",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 26, 30]
+    },
+    "modules": [
+        {
+            "description": "Lógica do Script",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "e2b109c3-d456-4f78-b901-9876543210fe",
+            "version": [1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        }
+    ]
+}
